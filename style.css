@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+  /* -------------------- END OF CSS RESET -------------------- */
+
+    section {
+        position: relative;
+        width: 100%;
+        max-width: 1200px;
+        height: 100vh;
+        margin: auto;
+
+    }
+
+    #section1 {
+        background-color: #efd592;
+    }
+
+    #section2 {
+        background-color: #4343f9;
+    }
+
+    #button1 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #242d38;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        font-size: 24px;
+        letter-spacing: 0.2em;
+        color: #efd592;
+    }
+
+    #button2 {
+        position: absolute;
+        width: 200px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        border: solid;
+        border-width: 6px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        font-size: 21px;
+        letter-spacing: 0.2em;
+        color: #242d38;
+        font-weight: bold;
+    }
+
+    #button3 {
+        position: absolute; 
+        width: 200px;
+        height: 60px;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #4343f9;
+        box-shadow: 0 0 20px rgba(37, 37, 168, 0.897);
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 21px;
+        color: #ffffff;
+        text-transform: capitalize;
+    }
